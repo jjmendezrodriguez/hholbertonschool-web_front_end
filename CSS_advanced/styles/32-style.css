@@ -269,14 +269,15 @@ ul.row {
     font-size: var(--button-font-size);
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
+    transition: color var(--transition-duration), background-color var(--transition-duration);
 }
+
 .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
-    transition: color var(--transition-duration), background-color var(--transition-duration);
-
 }
+
 [data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
