@@ -187,6 +187,21 @@ ul.row {
     fill: var(--text-color);
 }
 
+.card-services .card-title {
+    margin: 0;
+}
+
+.card-services a {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+}
+.card-services a:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
+}
+
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
@@ -195,14 +210,6 @@ ul.row {
 
 .footer ul {
     text-align: right;
-}
-
-.footer-address {
-    color: var(--text-color);
-}
-
-.footer {
-    padding: var(--footer-padding);
 }
 
 .row::after {
@@ -215,4 +222,12 @@ ul.row {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
+}
+
+.footer-address {
+    color: var(--text-color);
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
